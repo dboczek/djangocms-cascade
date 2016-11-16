@@ -161,7 +161,7 @@ class CarouselSlidePlugin(BootstrapPluginBase):
         context.update({
             'is_responsive': True,
             'instance': instance,
-            'caption': plugin_tags_to_user_html(caption, context, placeholder),
+            'caption': plugin_tags_to_user_html(caption, context),
             'is_fluid': fluid,
             'placeholder': placeholder,
             'elements': elements,
